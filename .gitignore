@@ -1,0 +1,21 @@
+# 默认忽略全部内容，只白名单放行自研代码与文档。
+# 平台前端抓取件、答案库、会话/抓包、构建产物一律不进入仓库。
+*
+!.gitignore
+!README.md
+!LICENSE
+!requirements.txt
+!aqzrui_api.py
+!aqzrui_speedrun.py
+!aqzrui_login.py
+!aqzrui_gui.py
+!ai_fallback.py
+!labsafe_client.py
+!labsafe_diag.py
+!labsafe_player.py
+!aqzrui-speedrun.spec
+!labsafe-player.spec
+!app.ico
+!test_study_skip.py
+!test_gui_ls.py
+!test_enumerate.py
